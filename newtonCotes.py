@@ -17,7 +17,7 @@ def midc(f, a, b, m):
     """Composite midpoint rule for function on [a,b]"""
     h = 1.0*(b-a)/m
     sum = 0
-    for i in range(1,m):
+    for i in range(1,m+1):
         x1 = a + (i-1)*h
         x2 = a + i*h
         sum += f((x1+x2)/2.0)
@@ -27,7 +27,7 @@ def trapc(f, a, b, m):
     """Composite trapezoid rule for function f on [a,b]"""
     h = 1.0*(b-a)/m
     sum = 0
-    for i in range(m+1):
+    for i in range(1,m+1):
         x = a + i*h
         if i==0 or i==m:
             sum += 0.5*f(x)
