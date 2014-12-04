@@ -6,3 +6,4 @@ Math tools
 * Heron method, Newton Method
 * LU decomposition
 * Barycentric Interpolation, Newton Cotes
+* Gaussian Quadrature
