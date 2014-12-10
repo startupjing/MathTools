@@ -7,3 +7,4 @@ Math tools
 * LU decomposition
 * Barycentric Interpolation, Newton Cotes
 * Gaussian Quadrature
+* Linear Program to fit a line(absolute error measure)
